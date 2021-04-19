@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.main_heading{
+
+    display: block;
+    opacity: 0.6;
+    padding-left: 300px;
+    padding-top: 300px;
+
+}
+
+#typo{
+
+    padding-left: 130px;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: 6px;
+
+}
+
+#name{
+
+    font-size: 2em;
+    padding-left: 240px;
+    line-height: 2em;
+
+}
+
+.nav_bar{
+
+    list-style: none;
+    border: 1px solid grey;
+    height: 3em;
+    word-spacing: 2em;
+    margin: 120px;
+    width: 37%;
+    margin-left: 380px;
+    
+
+}
+
+.nav_bar a{
+
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #000000;
+    opacity: 0.6;
+
+}
+.nav_bar button{
+
+    border: none;
+    padding: 10px;
+    background: none;
+
+}
+
+.nav_bar a:hover{
+
+    opacity: 1;
+}
+
+.image_Book{
+
+    display: block;
+}
+
+.image_Book img{
+
+    border: 2px ridge black;
+    width: 500px;
+    height: 600px;
+    filter: grayscale(1);
+    margin: 100px;
+
+}
+
+.image-text{
+    
+    
+    float: right;
+    padding-right: 170px;
+    padding-top: 480px;
+    font-size: 5em;
+    opacity: 0.8;
+
+}
+
+.special{
+
+    padding-right: 240px;
+
+}
+
+.footer_container{
+
+
+    background-color:#b1b1b1;
+    height: 20vh;
+
+}
+
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 70px;
+    opacity: 0.5;
+
+}
+
+.twitter:hover{
+
+    opacity: 1;
+
+}
+
+.youtuber:hover{
+
+    opacity: 1;
+
+}
+
+.github:hover{
+
+    opacity: 1;
+
+}
+
+.footer_text{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    opacity: 0.8;
+    line-height: 70px;
+}
